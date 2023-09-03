@@ -1,7 +1,9 @@
-const Mars = () => {
+import Planet from "../components/Planet"
+
+const Mars = ({ planet }) => {
     return (
         <div>
-            {/* <p>mars</p> */}
+            <div>{planet}</div>
         </div>
 
     )

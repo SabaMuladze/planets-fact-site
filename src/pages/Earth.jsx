@@ -1,6 +1,8 @@
-const Earth = () => {
+import Planet from "../components/Planet"
+
+const Earth = ({ planet }) => {
     return (
-        <p>Earth</p>
+        <div>{planet}</div>
     )
 }
 
