@@ -26,22 +26,22 @@ function App() {
   }
   return (
     <React.StrictMode >
-      <header className='w-full '>
+      <header className={!check ? 'w-full min-h-screen' : 'w-full'}>
         <div className='flex justify-between py-4 px-6'>
-          <h2>PLANETS</h2>
-          <div onClick={burgerfunc} className='sm:block lg:hidden  absolute right-6'>
+          <h2 className='font[Antonio,sans-serief] text-[28px]'>PLANETS</h2>
+          <div onClick={burgerfunc} className='sm:block lg:hidden  absolute right-6 top-7'>
             <img src={burgerIcon} alt="" />
           </div>
         </div>
 
 
-        <ul className={!check ? 'flex flex-col gap-1 bg-[#070724] w-full h-screen' : 'hidden'}>
+        <ul className={!check ? 'flex flex-col gap-1 bg-[#070724] w-full h-screen absolute lg:hidden' : 'hidden'}>
           {datas.map(link => {
             console.log(link);
             return (
               <div className='flex gap-1' key={link.color}>
                 <div className={link.color + ' ' + "my-5 mx-5"}></div>
-                <Link className='text-white py-5 text-sm ' to={`/${link.name}`}>{link.name}</Link>
+                <Link className={`text-white py-5 text-sm font-[League Spartan,sans-serif] font-bold tracking-wide uppercase`} to={`/${link.name}`}>{link.name}</Link>
               </div>
 
             )

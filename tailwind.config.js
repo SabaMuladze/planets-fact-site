@@ -8,7 +8,7 @@ export default {
         bgColor: "#070724",
       },
       fonts: {
-        spartan: ,
+        spartan: 'League Spartan',
         antonio: 'Antonio'
       }
     },
