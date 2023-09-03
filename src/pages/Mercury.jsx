@@ -1,6 +1,6 @@
-const Mercury = () => {
+const Mercury = (props) => {
     return (
-        <p>Mercury</p>
+        <p>MERCURY</p>
     )
 }
 

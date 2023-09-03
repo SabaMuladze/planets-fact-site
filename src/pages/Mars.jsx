@@ -1,8 +1,7 @@
 const Mars = () => {
     return (
         <div>
-            <p>Wow</p>
-            <p>Mars</p>
+            {/* <p>mars</p> */}
         </div>
 
     )
