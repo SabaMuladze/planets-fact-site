@@ -1,6 +1,6 @@
 const Planet = ({ data }) => {
     return (
-        <main>
+        <main className="xl: px-[165px]">
             <div className="flex items-center justify-center m-0  max-lg: max-h-[400px]">
                 <img src={data.images.planet} className=" max-lg:scale-50  lg:scale-75 " alt={data.name} />
             </div>
@@ -12,21 +12,21 @@ const Planet = ({ data }) => {
             </div>
 
             <div className="flex max-md:flex-col max-md:items-center px-6 gap-3 mt-7 pb-5 ">
-                <div className="flex justify-between w-full px-6 py-4 border-[1px]  border-solid border-white/50 items-center">
-                    <p className="font-sans opacity-75">ROTATION TIME</p>
-                    <p className="font-serif text-xl ">{data.rotation}</p>
+                <div className="flex justify-between w-full px-6 py-4 border-[1px]  border-solid border-white/50 items-center md:flex-col md:justify-normal md:items-start lg:py-8 lg:pt-6">
+                    <p className="font-sans opacity-75 text-[10px] lg:text-[12px]">ROTATION TIME</p>
+                    <p className="font-serif text-xl md:text-2xl lg:text-4xl ">{data.rotation}</p>
                 </div>
-                <div className="flex justify-between w-full px-6 py-4 border-[1px]  border-solid border-white/50 items-center">
-                    <p className="font-sans opacity-75">REVOLUTION TIME</p>
-                    <p className="font-serif text-xl ">{data.revolution}</p>
+                <div className="flex justify-between w-full px-6 py-4 border-[1px]  border-solid border-white/50 items-center md:flex-col md:justify-normal md:items-start lg:py-8 lg:pt-6">
+                    <p className="font-sans opacity-75 text-[10px] lg:text-[12px]">REVOLUTION TIME</p>
+                    <p className="font-serif text-xl md:text-2xl lg:text-4xl ">{data.revolution}</p>
                 </div>
-                <div className="flex justify-between w-full px-6 py-4 border-[1px]  border-solid border-white/50 items-center">
-                    <p className="font-sans opacity-75">RADIUS</p>
-                    <p className="font-serif text-xl ">{data.radius}</p>
+                <div className="flex justify-between w-full px-6 py-4 border-[1px]  border-solid border-white/50 items-center md:flex-col md:justify-normal md:items-start lg:py-8 lg:pt-6">
+                    <p className="font-sans opacity-75 text-[10px] lg:text-[12px]">RADIUS</p>
+                    <p className="font-serif text-xl md:text-2xl lg:text-4xl ">{data.radius}</p>
                 </div>
-                <div className="flex justify-between w-full px-6 py-4 border-[1px]  border-solid border-white/50 items-center">
-                    <p className="font-sans opacity-75">AVERAGE TEMP.</p>
-                    <p className="font-serif text-xl ">{data.temperature}</p>
+                <div className="flex justify-between w-full px-6 py-4 border-[1px]  border-solid border-white/50 items-center md:flex-col md:justify-normal md:items-start lg:py-8 lg:pt-6">
+                    <p className="font-sans opacity-75 text-[10px] lg:text-[12px]">AVERAGE TEMP.</p>
+                    <p className="font-serif text-xl md:text-2xl lg:text-4xl ">{data.temperature}</p>
                 </div>
             </div>
 
