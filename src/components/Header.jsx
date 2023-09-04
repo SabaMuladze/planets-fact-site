@@ -13,7 +13,7 @@ const Header = ({ data }) => {
   }
   return (
     <header className={!check ? 'w-full min-h-screen ' : 'w-full '}>
-      <div className='flex sm:justify-between md:justify-center py-4 px-6 mb-5 border-b border-solid border-1 border-gray-600 lg:px-8 lg:justify-between'>
+      <div className='flex sm:justify-between border-b border-solid border-1 border-gray-600 md:justify-center py-4 px-6 mb-5 lg:px-8 lg:justify-between border-b border-solid border-1 border-gray-600'>
         <h2 className='font-[Antonio,sans-serif] text-[28px]'>PLANETS</h2>
         <ul className='gap-8 max-lg:hidden lg:flex items-center'>
           {datas.map(link => {
@@ -26,7 +26,7 @@ const Header = ({ data }) => {
           <img src={burgerIcon} alt="" />
         </div>
       </div>
-      <ul className='gap-8 max-md:hidden md:flex items-center justify-center lg:hidden'>
+      <ul className='gap-8 max-md:hidden md:flex items-center justify-center border-b border-solid border-1 border-gray-600 pb-5 lg:hidden'>
         {datas.map(link => {
           return (
             <Link className='text-white' key={link.name} to={`/${link.name}`}>{link.name}</Link>
