@@ -5,6 +5,10 @@ const Planet = ({ data }) => {
                 <img src={data.images.planet} className=" max-lg:scale-50  lg:scale-75 " alt={data.name} />
             </div>
 
+            <div className="max-md:flex justify-center uppercase text-[40px] md:hidden">
+                <h1>{data.name}</h1>
+            </div>
+
 
         </main>
     )
