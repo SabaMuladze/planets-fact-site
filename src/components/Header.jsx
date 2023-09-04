@@ -13,7 +13,7 @@ const Header = ({ data }) => {
   }
   return (
     <header className={!check ? 'w-full min-h-screen ' : 'w-full '}>
-      <div className='flex max-md:justify-between border-b border-solid border-1 border-gray-600 max-lg:justify-center py-4 px-6 mb-5 border-hidden lg:justify-between border-solid px-8'>
+      <div className='flex max-md:justify-between border-b max-md:border-solid border-1 border-gray-600 md:justify-center py-4 px-6 mb-5 md:border-none lg:justify-between lg:border-solid  lg:px-8'>
         <h2 className='font-[Antonio,sans-serif] text-[28px]'>PLANETS</h2>
         <ul className='gap-8 max-lg:hidden lg:flex items-center'>
           {datas.map(link => {

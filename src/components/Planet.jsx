@@ -5,8 +5,10 @@ const Planet = ({ data }) => {
                 <img src={data.images.planet} className=" max-lg:scale-50  lg:scale-75 " alt={data.name} />
             </div>
 
-            <div className="max-md:flex justify-center uppercase text-[40px] md:hidden">
-                <h1 className='font-serif'>{data.name}</h1>
+            <div className="max-md:flex flex-col justify-center items-center px-6  md:hidden">
+                <h1 className='font-serif text-[40px] uppercase '>{data.name}</h1>
+                <p className="text-center font-sans mt-4 leading-6 font-normal">{data.overview.content}</p>
+                <p className="font-sans mt-7 opacity-75">Source: <a className="font-sans underline decoration-1" target="_blank" href={data.overview.source}>Wikipedia</a></p>
             </div>
 
 
