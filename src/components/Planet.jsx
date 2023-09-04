@@ -6,7 +6,7 @@ const Planet = ({ data }) => {
             </div>
 
             <div className="max-md:flex justify-center uppercase text-[40px] md:hidden">
-                <h1>{data.name}</h1>
+                <h1 className='font-serif'>{data.name}</h1>
             </div>
 
 

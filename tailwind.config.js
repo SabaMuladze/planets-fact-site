@@ -7,9 +7,9 @@ export default {
       colors: {
         bgColor: "#070724",
       },
-      fonts: {
-        spartan: 'League Spartan',
-        antonio: 'Antonio'
+      fontFamily: {
+        sans: ['League Spartan', 'sans-serif'],
+        serif: ['Antonio', 'sans-serif']
       }
     },
   },
