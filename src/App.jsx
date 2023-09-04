@@ -14,6 +14,7 @@ import Uranus from './pages/Uranus'
 import Mars from './pages/Mars'
 import Header from './components/Header'
 import Planet from './components/Planet'
+import photo from './assets/planet-venus.svg'
 
 
 function App() {

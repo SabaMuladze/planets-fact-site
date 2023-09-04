@@ -14,3 +14,7 @@ body {
     width: 100%;
     height: 100vh;
 }
+
+img {
+    margin: 0 !;
+}
