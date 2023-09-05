@@ -6,3 +6,27 @@ h4,
 li {
     color: white;
 }
+
+.humburger-div {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin: 20px;
+    background: linear-gradient(to bottom,
+            #419EBB,
+
+            #2D68F0,
+
+            #1EC1A2,
+
+            #6D2ED5,
+
+            #D83A34,
+
+            #D14C32,
+
+            #CD5120,
+
+            #EDA249);
+
+}

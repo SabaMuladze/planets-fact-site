@@ -1,3 +1,4 @@
+import data from './data.json'
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ["index.html",
@@ -6,6 +7,7 @@ export default {
     extend: {
       colors: {
         bgColor: "#070724",
+        divcolor: data.color
       },
       fontFamily: {
         sans: ['League Spartan', 'sans-serif'],

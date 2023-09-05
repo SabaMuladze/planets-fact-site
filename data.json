@@ -22,7 +22,8 @@
       "internal": "src/assets/planet-mercury-internal.svg",
       "geology": "src/assets/geology-mercury.png"
     },
-    "color": "bg-[#DEF4FC] rounded-full w-5 h-5"
+    "color": "bg-[#DEF4FC]",
+    "colornv": "#DEF4FC"
   },
   {
     "name": "Venus",
@@ -47,7 +48,8 @@
       "internal": "src/assets/planet-venus-internal.svg",
       "geology": "src/assets/geology-venus.png"
     },
-    "color": "bg-[#F7CC7F] rounded-full w-5 h-5"
+    "color": "bg-[#DEF4FC]",
+    "colornv": "#DEF4FC"
   },
   {
     "name": "Earth",
@@ -72,7 +74,8 @@
       "internal": "src/assets/planet-earth-internal.svg",
       "geology": "src/assets/geology-earth.png"
     },
-    "color": "bg-[#545BFE] rounded-full w-5 h-5"
+    "color": "bg-[#DEF4FC]",
+    "colornv": "#DEF4FC"
   },
   {
     "name": "Mars",
@@ -97,7 +100,8 @@
       "internal": "src/assets/planet-mars-internal.svg",
       "geology": "src/assets/geology-mars.png"
     },
-    "color": "bg-[#FF6A45] rounded-full w-5 h-5"
+    "color": "bg-[#DEF4FC]",
+    "colornv": "#DEF4FC"
   },
   {
     "name": "Jupiter",
@@ -122,7 +126,8 @@
       "internal": "src/assets/planet-jupiter-internal.svg",
       "geology": "src/assets/geology-jupiter.png"
     },
-    "color": "bg-[#ECAD7A] rounded-full w-5 h-5"
+    "color": "bg-[#DEF4FC]",
+    "colornv": "#DEF4FC"
   },
   {
     "name": "Saturn",
@@ -147,7 +152,8 @@
       "internal": "src/assets/planet-saturn-internal.svg",
       "geology": "src/assets/geology-saturn.png"
     },
-    "color": "bg-[#FCCB6B] rounded-full w-5 h-5"
+    "color": "bg-[#DEF4FC]",
+    "colornv": "#DEF4FC"
   },
   {
     "name": "Uranus",
@@ -172,7 +178,8 @@
       "internal": "src/assets/planet-uranus-internal.svg",
       "geology": "src/assets/geology-uranus.png"
     },
-    "color": "bg-[#65F0D5] rounded-full w-5 h-5"
+    "color": "#DEF4FC",
+    "colornv": "#DEF4FC"
   },
   {
     "name": "Neptune",
@@ -197,6 +204,7 @@
       "internal": "src/assets/planet-neptune-internal.svg",
       "geology": "src/assets/geology-neptune.png"
     },
-    "color": "bg-[#497EFA] rounded-full w-5 h-5"
+    "color": "bg-[#DEF4FC]",
+    "colornv": "#DEF4FC"
   }
 ]

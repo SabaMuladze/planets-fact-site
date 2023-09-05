@@ -3,7 +3,7 @@ import { useState } from 'react'
 import burgerIcon from '../assets/icon-hamburger.svg'
 
 
-const Header = ({ data }) => {
+const Header = ({ data, color }) => {
   const [datas, setDatas] = useState(data)
   const [burger, setBurger] = useState('hidden')
   const [check, setCheck] = useState(true)
@@ -36,8 +36,8 @@ const Header = ({ data }) => {
       <ul className={!check ? 'flex flex-col gap-1 bg-[#070724] w-full h-screen absolute md:hidden lg:hidden' : 'hidden'}>
         {datas.map(link => {
           return (
-            <div className='flex gap-1' key={link.color}>
-              <div className={link.color + ' ' + "my-5 mx-5"}></div>
+            <div className='flex gap-1' key={link.name}>
+              <div className={"humburger-div"}></div>
               <Link className={`text-white py-5 text-sm font-sans font-bold tracking-wide uppercase  opacity-75`} to={`/${link.name}`}>{link.name}</Link>
             </div>
 
