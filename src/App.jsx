@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 import { Link, Navigate, Route, Router, Routes } from 'react-router-dom'
 import './App.css'
-import data from '../data.json'
+import data from './data.json'
 import { list } from 'postcss'
 import Mercury from './pages/Mercury'
 import Earth from './pages/Earth'
@@ -14,7 +14,6 @@ import Uranus from './pages/Uranus'
 import Mars from './pages/Mars'
 import Header from './components/Header'
 import Planet from './components/Planet'
-import photo from './assets/planet-venus.svg'
 
 
 function App() {
@@ -22,7 +21,6 @@ function App() {
   return (
     <React.StrictMode >
       <Header data={data} />
-
       <Routes >
         <Route path='/' element={<Navigate to={'/Mercury'} />} />
         <Route path='/Mercury' element={<Mercury planet={<Planet data={data[0]} color={"bg-[#497EFA]"} colornv={"border-[#497EFA]"} />} />} />

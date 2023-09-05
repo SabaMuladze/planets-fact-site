@@ -1,6 +1,6 @@
 import { Link, Navigate, Route, Routes } from 'react-router-dom'
 import { useState } from 'react'
-import burgerIcon from '../assets/icon-hamburger.svg'
+import burgerIcon from '/assets/icon-hamburger.svg'
 
 
 const Header = ({ data, color }) => {

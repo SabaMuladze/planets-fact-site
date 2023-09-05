@@ -5,7 +5,6 @@ const Planet = ({ data, color, colornv }) => {
     const [planetImg, setPlanetImg] = useState(data.images.planet)
     const [information, setInformation] = useState(data.overview.content)
     const [surfaceImg, setSurfaceImg] = useState('hidden')
-    // const [buttonColor, setButtonColor] = useState("text-white leading-6 py-3 px-5 font-sans text-left border-[1px] border-white border-solid w-[290px] xl:lg:w-[350px] lg:hover:opacity-70")
     const [btn1, setBtn1] = useState("text-white leading-6 py-3 px-5 font-sans text-left border-[1px] border-white border-solid w-[290px] xl:lg:w-[350px] lg:hover:opacity-70" + ' ' + color)
     const [btn2, setBtn2] = useState("text-white leading-6 py-3 px-5 font-sans text-left border-[1px] border-white border-solid w-[290px] xl:lg:w-[350px] lg:hover:opacity-70")
     const [btn3, setBtn3] = useState("text-white leading-6 py-3 px-5 font-sans text-left border-[1px] border-white border-solid w-[290px] xl:lg:w-[350px] lg:hover:opacity-70")
@@ -22,7 +21,6 @@ const Planet = ({ data, color, colornv }) => {
         setBtnsBorder('font-sans  pb-5')
         setBtnsBorder2('font-sans  pb-5')
         setBtnsBorder3('font-sans  pb-5')
-
         if (active === true) {
             if (text === 'OVERVIEW') {
                 setInformation(data.overview.content)
