@@ -5,7 +5,6 @@ import burgerIcon from '../assets/icon-hamburger.svg'
 
 const Header = ({ data, color }) => {
   const [datas, setDatas] = useState(data)
-  const [burger, setBurger] = useState('hidden')
   const [check, setCheck] = useState(true)
 
   const burgerfunc = () => {

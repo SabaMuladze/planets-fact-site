@@ -1,6 +1,5 @@
 import { useState, useRef } from "react"
 
-
 const Planet = ({ data, color, colornv }) => {
     const [active, setActive] = useState(true)
     const [planetImg, setPlanetImg] = useState(data.images.planet)
@@ -13,15 +12,6 @@ const Planet = ({ data, color, colornv }) => {
     const [btnsborder, setBtnsBorder] = useState(`font-sans  pb-5 border-b-[5px] border-solid ` + ' ' + colornv)
     const [btnsborder2, setBtnsBorder2] = useState(`font-sans  pb-5 `)
     const [btnsborder3, setBtnsBorder3] = useState(`font-sans  pb-5 `)
-
-
-
-
-
-
-
-
-
 
     function showData(text, btn) {
         setSurfaceImg('hidden')
@@ -60,7 +50,6 @@ const Planet = ({ data, color, colornv }) => {
     }
     return (
         <>
-
             <div className="w-full flex justify-center border-b-[1px] border-solid  border-gray-600 md:hidden ">
                 <ul className="flex gap-10">
                     <li className={btnsborder}><button onClick={(e) => showData(e.target.textContent, e.target)}>OVERVIEW</button></li>

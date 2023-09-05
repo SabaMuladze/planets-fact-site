@@ -34,9 +34,6 @@ function App() {
         <Route path='/Uranus' element={<Uranus planet={<Planet data={data[6]} color={"bg-[#65F0D5]"} colornv={"border-[#65F0D5]"} />} />} />
         <Route path='/Mars' element={<Mars planet={<Planet data={data[3]} color={"bg-[#FF6A45]"} />} colornv={"border-[#FF6A45]"} />} />
       </Routes>
-
-
-
     </React.StrictMode >
   )
 }
