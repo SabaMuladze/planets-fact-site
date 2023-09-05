@@ -1,4 +1,4 @@
-import data from './data.json'
+import data from './src/data.json'
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ["index.html",
