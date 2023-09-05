@@ -13,7 +13,3 @@ li {
     border-radius: 50%;
     margin: 20px;
 }
-
-#root {
-    background-image: url('./assets/background-stars.svg');
-}
