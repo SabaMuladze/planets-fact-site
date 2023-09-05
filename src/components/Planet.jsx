@@ -70,7 +70,7 @@ const Planet = ({ data, color, colornv }) => {
                             </div>
                         </div>
                         <div>
-                            <div className="w-full flex flex-col justify-center gap-4 pt-5 xl:pb-20">
+                            <div className="w-full flex flex-col justify-center gap-4 xl:pb-16">
                                 <button className={btn1} onClick={(e) => showData(e.target.textContent, e.target)}>OVERVIEW</button>
                                 <button className={btn2} onClick={(e) => showData(e.target.textContent, e.target)}>INTERNAL STRUCTURE</button>
                                 <button className={btn3} onClick={(e) => showData(e.target.textContent, e.target)}>SURFACE GEOLOGY</button>
@@ -85,7 +85,7 @@ const Planet = ({ data, color, colornv }) => {
                     <p className="font-sans mt-7 opacity-75">Source: <a className="font-sans underline decoration-1" target="_blank" href={data.overview.source}>Wikipedia</a></p>
                 </div>
 
-                <div className="flex max-md:flex-col max-md:items-center  gap-3 mt-7 pb-5  max-sm:px-5">
+                <div className="flex max-md:flex-col max-md:items-center  gap-3 mt-5 pb-5  max-sm:px-5">
                     <div className="flex justify-between w-full px-6 py-4 border-[1px]  border-solid border-white/50 items-center md:flex-col md:justify-normal md:items-start lg:py-8 lg:pt-6">
                         <p className="font-sans opacity-75 text-[10px] lg:text-[12px]">ROTATION TIME</p>
                         <p className="font-serif text-xl md:text-2xl lg:text-4xl ">{data.rotation}</p>

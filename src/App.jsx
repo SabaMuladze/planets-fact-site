@@ -30,7 +30,7 @@ function App() {
         <Route path='/Neptune' element={<Neptune planet={<Planet data={data[7]} color={"bg-[#497EFA]"} colornv={"border-[#497EFA]"} />} />} />
         <Route path='/Saturn' element={<Saturn planet={<Planet data={data[5]} color={"bg-[#FCCB6B]"} colornv={"border-[#FCCB6B]"} />} />} />
         <Route path='/Uranus' element={<Uranus planet={<Planet data={data[6]} color={"bg-[#65F0D5]"} colornv={"border-[#65F0D5]"} />} />} />
-        <Route path='/Mars' element={<Mars planet={<Planet data={data[3]} color={"bg-[#FF6A45]"} />} colornv={"border-[#FF6A45]"} />} />
+        <Route path='/Mars' element={<Mars planet={<Planet data={data[3]} color={"bg-[#FF6A45]"} colornv={"border-[#FF6A45]"} />} />} />
       </Routes>
     </React.StrictMode >
   )
