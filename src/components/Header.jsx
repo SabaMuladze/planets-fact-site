@@ -14,7 +14,7 @@ const Header = ({ data, color }) => {
   return (
     <header className={!check ? 'w-full min-h-screen ' : 'w-full '}>
       <div className='flex max-md:justify-between border-b max-md:border-solid border-1 border-gray-600 md:justify-center py-4 px-6 mb-5 md:border-none lg:justify-between lg:border-solid  lg:px-8'>
-        <h2 className='font-[Antonio,sans-serif] text-[28px]'>PLANETS</h2>
+        <Link className='font-[Antonio,sans-serif] cursor-pointer text-[28px] text-white' to={'/Mercury'}>Planets</Link>
         <ul className='gap-8 max-lg:hidden lg:flex items-center'>
           {datas.map(link => {
             return (
